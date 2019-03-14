@@ -1,0 +1,15 @@
+ec2-3-17-173-233.us-east-2.compute.amazonaws.com
+
+sudo docker exec jupyterhub bash -c "jupyter notebook"
+
+https://ec2-3-17-173-233.us-east-2.compute.amazonaws.com:9443
+
+token
+1111350a1b6f4e95a9263671dd463dbe
+
+sudo docker exec jupyterhub useradd -m -s /bin/bash -N Nico
+sudo docker exec jupyterhub bash -c "echo Nico:Nico | chpasswd"
+https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
+
+wget "https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh"
+bash Anaconda3-2018.12-Linux-x86_64.sh
