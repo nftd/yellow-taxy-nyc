@@ -1,3 +1,5 @@
 **/.ipynb_checkpoints
 yellowtot_1.csv
 download-data.sh
+*.joblib
+data/tmp*
